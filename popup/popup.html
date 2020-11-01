@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        button {
+            cursor: pointer;
+            height: 30px;
+            min-width: 250px;
+            outline: none;
+            margin: 3px;
+            border-width: 0px;
+        }
+
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        body {
+            min-width: 300px;
+        }
+
+        .delete-btn {
+            min-width: 34px;
+            color: honeydew;
+            background-color: red;
+            border-width: 0px;
+        }
+
+        .delete-btn:hover {
+            background-color: salmon;
+        }
+
+        #open-site-btn,
+        #add-user-btn {
+            min-width: 290px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="open-site-btn"> > Aller sur le site interieur.gouv.fr</button><br />
+    <button id="add-user-btn"> + Ajouter un utilisateur</button><br />
+    <div id="btns"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
