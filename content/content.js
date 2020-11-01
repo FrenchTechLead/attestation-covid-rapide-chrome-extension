@@ -6,9 +6,16 @@ chrome.runtime.onMessage.addListener((msg, sender, response) => {
         for (const [key, value] of Object.entries(msg)) {
             document.getElementById(key).value = value;
         }
-        const date = new Date();
-        const currentTime = date.getHours() + ':' + date.getMinutes();
-        document.getElementById("field-heuresortie").value = currentTime;
+        document.getElementById("field-heuresortie").value = formattedTime();
         response(true);
     }
 });
+
+function formattedTime() {
+    const date = new Date();
+    let hours = date.getHours() + '';
+    let minutes = date.getMinutes() + '';
+    hours = hours.length == 2 ? hours : ('0' + hours);
+    minutes = minutes.length == 2 ? minutes : ('0' + minutes);
+    return hours + ':' + minutes;
+}
