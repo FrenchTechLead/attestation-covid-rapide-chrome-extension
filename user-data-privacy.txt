@@ -1,0 +1,7 @@
+User Data Privacy Policy
+Last Updated on November 3, 2020
+
+The extension "Attestation covid vite fait !" collects user's data only to create local profile for the user.
+By local profile we mean that the profile stays on the user's browser.
+The user can delete his local profile at any time using the delete button on the extension.
+The extension does not send any user information to a remote server.

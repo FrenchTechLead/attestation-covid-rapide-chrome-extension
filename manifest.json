@@ -1,8 +1,9 @@
 {
     "name": "Attestation covid vite fait !",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Remplissez votre attestation de déplacement dérogatoire en deux secondes !",
     "manifest_version": 2,
+    "author": "Akram MECHERI",
     "permissions": [
         "storage"
     ],
